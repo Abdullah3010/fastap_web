@@ -19,8 +19,6 @@ void main() async {
   Bloc.observer = AppBlocObserver();
   await ScreenUtil.ensureScreenSize();
 
-  // await Hive.initFlutter();
-
   runApp(
     ModularApp(
       module: AppModule(),
